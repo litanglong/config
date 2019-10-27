@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: order
   datasource:
       url: jdbc:mysql:///sell?serverTimezone=UTC&characterEncoding=utf-8
       username: root
