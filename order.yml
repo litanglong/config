@@ -6,4 +6,7 @@ spring:
       driver-class-name: com.mysql.cj.jdbc.Driver
   rabbitmq:
       host: 129.28.33.228
+  redis:
+      host: 129.28.33.228
+      port: 6379
 value: ltl
