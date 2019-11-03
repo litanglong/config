@@ -7,8 +7,8 @@ zuul:
       #不过滤cookie
       #sensitiveHeaders:
   #排除
-  ignored-patterns:
-    - /**/buyer/product/listForOrder
+  #ignored-patterns:
+    #- /**/buyer/product/listForOrder
 management:
   endpoints:
     web:
