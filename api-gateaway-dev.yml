@@ -1,0 +1,16 @@
+zuul:
+  routes:
+    #自定义路由
+    myProduct:
+      path: /myProduct/**
+      service-id: product
+      #不过滤cookie
+      #sensitiveHeaders:
+  #排除
+  ignored-patterns:
+    - /**/buyer/product/listForOrder
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
