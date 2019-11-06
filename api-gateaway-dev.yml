@@ -1,4 +1,5 @@
 zuul:
+  sensitiveHeaders: "*"
   routes:
     #自定义路由
     myProduct:
@@ -17,3 +18,6 @@ management:
 spring:
   rabbitmq:
       host: 129.28.33.228
+  redis:
+      host: 129.28.33.228
+      port: 6379
